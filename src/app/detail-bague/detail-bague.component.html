@@ -1,0 +1,14 @@
+<section class="wrapper-product">
+    <div class="card" style="width: 18rem;">
+      <img src="{{ selectedBague.urlPhoto }}" class="card-img-top" alt="..." />
+      <div class="card-body">
+          <h5 class="card-title">{{ selectedBague.libelle }}</h5>
+          <p class="card-text">{{ selectedBague.description }}</p>
+          <p class="card-text">{{ selectedBague.materiauxRing }}</p>
+          <p class="card-text">{{ selectedBague.materiauxStone }}</p>
+          <p class="card-text">{{ selectedBague.price}} $</p>
+        <a class="btn btn-outline-secondary " (click)="navigateToList()">Retour</a>
+        <a class="btn btn-outline-warning">Buy It</a>
+      </div>
+    </div>
+  </section>

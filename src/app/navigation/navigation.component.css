@@ -1,0 +1,14 @@
+.decote {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-bottom: 50px;
+ }
+
+.navleft{
+    margin-right: 20px;
+}
+
+.navTop{
+    margin-top: 10px;
+}

@@ -1,0 +1,58 @@
+
+<p class="posCenter" id="fred">Une bague rien que pour <strong>vous</strong> , choisissez parmis les les matériaux les plus <mark>équitables du marché</mark>.</p>
+<div class="placementDrop">
+  <div class="input-group selectSize">
+    <select class="custom-select" id="inputGroupSelect01" aria-label="Example select with button addon" >
+      <option selected>Choose your Ring...</option>
+      <option value="Gold">Gold</option>
+      <option value="White Ceramic">White Ceramic</option>
+      <option value="Black Ceramic">Black Ceramic</option>
+    </select>
+    
+  </div>
+  <div class="input-group selectSize">
+    <select class="custom-select " id="inputGroupSelect02" aria-label="Example select with button addon" >
+      <option selected>Choose your Stone...</option>
+      <option value="Rubis">Rubis</option>
+      <option value="Mysterious">Mysterious</option>
+      <option value="Rubis Lagoon">Rubis Lagoon</option>
+    </select>
+          
+    <div class="input-group-append">
+      <button class="btn btn-outline-secondary" type="button" (click)="SimulateBague('inputGroupSelect01', 'inputGroupSelect02')">Simulate</button>
+    </div>
+  </div>
+  </div> 
+<div class="alert alert-primary selectSize posCenter" role="alert">
+  {{messageAlert}}
+</div>
+
+<img src="{{selectedPersonalizedBague.urlPhoto}}" width="50%" class="posCenter" alt="...">
+
+<!-- utilisation de dropDownBox -->
+<!-- <section class="posCenter">
+  <div class="dropdown placementDrop aside ">
+
+      <button class="btn btn-light dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Ring
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" (click)="displayPersonalizedBague('Gold')">Gold</a>
+        <a class="dropdown-item" (click)="displayPersonalizedBague('White Ceramic')">White Ceramic</a>
+        <a class="dropdown-item" (click)="displayPersonalizedBague('Black Ceramic')">Black Ceramic</a>
+      </div>
+  </div>
+
+  <div class="dropdown placementDrop aside ">
+      <button class="btn btn-light dropdown-toggle element" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Stone
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+        <a class="dropdown-item" (click)="displayPersonalizedBague2('Rubis')">Rubis</a>
+        <a class="dropdown-item" (click)="displayPersonalizedBague2('Mysterious')">Mysterious</a> 
+        <a class="dropdown-item" (click)="displayPersonalizedBague2('Rubis Lagoon')">Rubis Lagoon</a>
+      </div>
+  </div>
+</section> -->
+ 
+ 

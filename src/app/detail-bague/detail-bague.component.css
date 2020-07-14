@@ -1,0 +1,9 @@
+.wrapper-product {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+  }
+  
+  .btn {
+    margin-right: 10px;
+  }

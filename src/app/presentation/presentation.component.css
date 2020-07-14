@@ -1,0 +1,25 @@
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+.centrer
+    {
+        text-align: center;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        
+    }
+.bak
+{
+
+	background-color: #635c5b;
+}
+.textePresentation
+{
+    text-align: justify;
+    margin: 10px 100px 20px 100px;
+ 
+}

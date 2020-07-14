@@ -1,0 +1,20 @@
+<div class="aucentre">
+  <form class="form-inline my-2 my-lg-0">
+    <input class="form-control mr-sm-2 " type="search" placeholder="Search by materials" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Search</button>
+  </form>   
+</div>
+
+<section class="wrapper">
+      <div class="card"  style="width: 18rem;" *ngFor="let bague of bagues">
+        <img src="{{ bague.urlPhoto }}"  class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{ bague.libelle }}</h5>
+          <p class="card-text">{{ bague.description }}</p>
+          <p class="card-text">{{ bague.materiauxRing }}</p>
+          <p class="card-text">{{ bague.materiauxStone }}</p>
+          <p class="card-text">{{ bague.price}} $</p>
+          <a class="btn btn-outline-primary" (click)="navigateToDetails(bague)">Détails</a>
+        </div>
+      </div>
+</section>
